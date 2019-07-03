@@ -1,12 +1,8 @@
-public class test4 {
-
-    public static void main(String[] args) {
-
-        char b = '*';
-
-        if( (b >= 'a' && b <= 'z') || (b >= 'A' && b <= 'Z'))
-            System.out.println(b + " is an alphabet.");
-        else
-            System.out.println(b + " is not an alphabet.");
-    }
-}
+ch = input()
+if ch == '0':
+    exit();
+else:
+    if((ch>='b' and ch<='z') or (ch>='A' and ch<='Z')):
+      print( "Alphabet");
+    else:
+      print( "not  Alphabet");
