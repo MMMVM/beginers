@@ -1,8 +1,5 @@
-ch = input()
-if ch == '0':
-    exit();
+a=str(input())
+if(a>='a' and a<='z' or a>='A' and a<'Z'):
+  print('Alphabet')
 else:
-    if((ch>='b' and ch<='z') or (ch>='A' and ch<='Z')):
-      print( "Alphabet");
-    else:
-      print( "not  Alphabet");
+  print("No")
