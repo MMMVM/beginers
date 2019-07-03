@@ -1,5 +1,5 @@
 a=input()
-c=0
+m=0
 for i in a:
-  c=c+1
-print(c)
+  m=m+1
+print(m)
