@@ -1,0 +1,9 @@
+b=int(input())
+if(b%400==0):
+  print("yes")
+elif(b%100==0):
+  print("no")
+if(b%4==0):
+  print("yes")
+else:
+  print("no")
