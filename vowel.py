@@ -1,9 +1,9 @@
-a=input()
-if(a>="a" and a<="z"):
+s=input()
+if(s>="a" and s<="z"):
     list=["a","e","i","o","u"]
-    if a in list:
+    if s in list:
         print("Vowel")
     else:
-        print("Const")
+        print("Consonant")
 else:
     print("Invalid")
